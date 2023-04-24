@@ -1,0 +1,64 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding-top:100px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+#content{
+    min-height: 480px;
+}
+
+#abc{
+    color:white;
+}
+#login-panel .panel-footer{
+    font-weight:normal;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: hsl(170, 92%, 15%);
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.navbar-brand{
+    font-size:20px;
+    
+}
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+    }
+}
+
+  .header img{
+    height: 75px;
+    width: 140px;
+  }
+  .navbar-header{
+    background-color: hsl(170, 92%, 15%);
+}
+  
+ 
